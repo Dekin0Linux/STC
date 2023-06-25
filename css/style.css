@@ -148,7 +148,7 @@ body{
     object-fit: cover;
 }
 .banner div{
-    background: linear-gradient(90deg, rgba(255,255,255,0.12088585434173671) 0%, rgb(26, 26, 26) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,0.12088585434173671) 0%, rgba(74, 74, 74, 0.492) 100%);
     width: 100%;
 }
 
