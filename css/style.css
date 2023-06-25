@@ -9,6 +9,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(#EBF0F3, #FFFFFF);
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0.12088585434173671) 0%, rgba(231,255,248,0.23573179271708689) 100%);
 }
 
 .text-green{
@@ -16,6 +18,26 @@ body{
 }
 .bg-green{
     background-color: #3CB878 ;
+}
+
+.nav-hover {
+    position: relative;
+}
+
+.nav-hover::before {
+    content: '';
+    padding: 2px;
+    background-color: #3CB878;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.nav-hover:hover::before {
+    width: 100%;
+    opacity: 1;
 }
 
 .image-bg{
@@ -42,7 +64,7 @@ body{
     transition: all  ease-in-out ;
 }
 .booking-card{
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9px);
@@ -52,26 +74,11 @@ body{
     margin: 10px 0px;
 }
 
-.login{
-    background: rgba(255, 255, 255, 0.63);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 10px;
-    margin: 10px 0px;
-}
-.item-card{
-    width: 60px;
-    height: 60px;
-    padding:5px;
-    /* background-color: rgba(255, 255, 255, 0.277); */
+.small-card {
+    background-color: white;
     border-radius: 5px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    /* letter-spacing: 0.024px */
+    width: 85px;
+
 }
 .item-card p{
     font-size: 13px;
@@ -93,9 +100,7 @@ body{
     border: none;
     outline: none;
     padding-left: 5px;
-}
-input{
-    background-color: none;
+    outline: none !important;
 }
 
 .searchBtn{

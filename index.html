@@ -31,70 +31,58 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 </head>
 
 
-<body class="position-relative">
+<body class="position-relative top-0">
    <!-- navbar -->
    <div class="container fixed-top top-0 bg-white mt-3 rounded ">
-        <nav class="navbar navbar-expand-lg z-3">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./images//stclogo.png" alt="" class="img-fluid" width="120px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <a class="navbar-brand" href="#">
+                    <img src="./images//stclogo.png" alt="" class="img-fluid" width="100px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-hover position-relative">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item nav-hover position-relative">
+                            <a class="nav-link active" aria-current="page" href="#">Track Parcel</a>
+                        </li>
+                        <li class="nav-item nav-hover position-relative">
+                            <a class="nav-link active" aria-current="page" href="#">Bus Hiring</a>
+                        </li>
+                        <li class="nav-item nav-hover position-relative">
+                            <a class="nav-link active" aria-current="page" href="#">Routes</a>
+                        </li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-                </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+
+                    <div class="d-flex">
+                        <a href=""><button class="btn btn-sm btn-outline-success mx-2 bg=green border-0 shadow" type="submit">Login</button></a>
+                        <a href=""><button class="btn btn-sm btn-success bg-green border-0 shadow " type="submit">Sign Up</button></a>
+                    </div>
+                </div>
             </div>
         </nav>
     </div>
    <!-- HERO IMAGE -->
     <div class="image-bg"></div>
     <!-- SEARCH BAR -->
-    <div class="container-fluid position-absolute hero-wrapper mb-5 ">
+
+    <div class="container-fluid m-0 position-absolute hero-wrapper mb-5 overflow-hidden">
         <div class="container">
             <div class="row animate__animated animate__fadeInUp">
                 <!-- BOOKING CARD -->
                 <div class="col-md-12">
                     <div class="">
                         <div class="d-flex gap-2 mt-md-5">
-                            <div class="item-card bg-white ">
-                                <div>
-                                    <img src="./images/232.png" alt="" class="img-fluid" width="90px">
-                                </div>
-                                <p>Bus</p>
+                            <div class=" small-card overflow-hidden">
+                                    <img src="./images/232.png" alt="" class="img-fluid" >
                             </div>
-
-                            <div class="item-card bg-white">
-                                <div>
-                                   <img src="./images/package.png" alt="" class="img-fluid" width="100px">
-                                </div>
-                                <p>parcel</p>
+                            <div class="small-card overflow-hidden">
+                                   <img src="./images/package.png" alt="" class="img-fluid" >
                             </div>
                         </div>
 
@@ -236,10 +224,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
             </div>
 
             <div class="container-fluid ">
-                <div class="row my-5 p-5 gap-md-0 gap-3">
+                <div class="row my-5 p-md-5 p-0 gap-md-0 gap-3">
                     <div class="col-md-6"  data-aos="zoom-in-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <img src="./images/ghana-mobile-app.png" alt="" class="img-fluid">
                     </div>
+
                     <div class="col-md-6" data-aos="zoom-in-left" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                         <p class="fw-semibold lead text-green mb-md-4">Smart journey, stay hassle-free.</p>
                         <p class="text-muted fw-bolder display-4">Download the STC Travel app!</p>
@@ -258,7 +247,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
         </div>
 
 
-        <div class="container-fluid bg-green banner my-5 position-relative">
+        <div class="container-fluid mx-0 bg-green banner my-5 position-relative">
             <div class="text-right position-absolute top-50 end-0 translate-middle-y text-white p-5 h-100 w-100 ">
                 <h2 class="fw-bolder display-1 text-end" data-aos="fade-up" data-aos-duration="1000">Enjoy your journey with <br>no stress</h2>
             </div>
@@ -266,12 +255,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 
 
 
-        <div class="container-fluid top-100 m-0 bg-green">
-            <div class="container p-md-5 mt-5" data-aos="fade-up">
-                <div class="row ">
+        <div class="container-fluid top-100 mx-0 bg-green">
+            <div class="container p-md-5 p-3 mt-5" data-aos="fade-up">
+                <div class="row gy-md-0 gy-3">
                     <div class="col-md-4 text-white">
                         <div class="mb-3">
-                            <img src="./images/stclogo.png" alt="" width="150px">
+                            <img src="./images/stclogo.png" alt="" width="130px">
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Asperiores, magni.</p>
                     </div>
@@ -279,7 +268,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
                     <div class="col-md-2 text-white">
                         <div>
                              <p class="fw-semibold">About STC</p>
-
                             <a href="" class="nav-link">Tracking</a>
                             <a href="" class="nav-link">About Us</a>
                             <a href="" class="nav-link">Contact Us</a>
