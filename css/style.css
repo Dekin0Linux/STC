@@ -113,6 +113,7 @@ body{
     outline: none;
     padding-left: 5px;
     outline: none !important;
+    border-bottom: 1px solid #3CB878;
 }
 
 .searchBtn{
@@ -149,6 +150,10 @@ body{
 .banner div{
     background: linear-gradient(90deg, rgba(255,255,255,0.12088585434173671) 0%, rgb(26, 26, 26) 100%);
     width: 100%;
+}
+
+.border-green{
+    border: 2px solid #3CB878;
 }
 
 

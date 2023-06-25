@@ -48,14 +48,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
                         <li class="nav-item nav-hover position-relative">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
-                        <li class="nav-item nav-hover position-relative">
+                        <li class="nav-item nav-hover position-relative" id="prompt">
                             <a class="nav-link active" aria-current="page" href="#">Track Parcel</a>
                         </li>
-                        <li class="nav-item nav-hover position-relative">
-                            <a class="nav-link active" aria-current="page" href="#">Bus Hiring</a>
+                        <li class="nav-item nav-hover position-relative" id="prompt"> 
+                            <a class="nav-link active" aria-current="page" href="#" >Bus Hiring</a>
                         </li>
-                        <li class="nav-item nav-hover position-relative">
-                            <a class="nav-link active" aria-current="page" href="#">Routes</a>
+                        <li class="nav-item nav-hover position-relative" id="prompt">
+                            <a class="nav-link active" aria-current="page" href="#" >Routes</a>
                         </li>
                     </ul>
 
@@ -141,20 +141,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
       AOS.init();
     </script>
 
-    <script>
-        document.addEventListener( 'DOMContentLoaded', function() {
-          var splide = new Splide( '.splide' ,{
-            // perPage: 2,
-            gap:'1rem',
-            pagination:false,
-            // autoplay : true,
-            loop:true,
-            // autowidth: true,
-            arrows:false
-          });
-          splide.mount();
-        } );
-    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
     <script src="./js/script.js" ></script>
