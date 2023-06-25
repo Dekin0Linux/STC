@@ -36,7 +36,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
    <div class="container fixed-top top-0 bg-white mt-3 rounded ">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="#">
                     <img src="./images//stclogo.png" alt="" class="img-fluid" width="100px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item nav-hover position-relative">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item nav-hover position-relative">
                             <a class="nav-link active" aria-current="page" href="#">Track Parcel</a>
@@ -60,7 +60,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
                     </ul>
 
                     <div class="d-flex">
-                        <a href="./login.html"><button class="btn btn-sm btn-outline-success mx-2 bg=green border-0 shadow" type="submit">Login</button></a>
+                        <a href=""><button class="btn btn-sm btn-outline-success mx-2 bg=green border-0 shadow" type="submit">Login</button></a>
                         <a href=""><button class="btn btn-sm btn-success bg-green border-0 shadow " type="submit">Sign Up</button></a>
                     </div>
                 </div>
@@ -73,24 +73,16 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 
     <div class="container-fluid m-0 position-absolute hero-wrapper mb-5 overflow-hidden">
         <div class="container">
-            <div class="row animate__animated animate__fadeInLeft">
+            <div class="row animate__animated animate__fadeInUp">
                 <!-- BOOKING CARD -->
                 <div class="col-md-12">
                     <div class="">
-                        <div class="d-flex gap-2 mt-md-5">
-                            <div class=" small-card overflow-hidden">
-                                    <img src="./images/232.png" alt="" class="img-fluid" >
-                            </div>
-                            <div class="small-card overflow-hidden">
-                                   <img src="./images/package.png" alt="" class="img-fluid" >
-                            </div>
-                        </div>
 
                         <!-- SERVICE ITEM -->
                         <div class="booking-card my-2" id="book">
 
                             <div class="my-2">
-                                <form action="/buses.html" class="row gy-3">
+                                <form action="" class="row gy-3">
                                     <div class="col-md-4">
                                         <div class="input-card form-group">
                                             <label for="from">
@@ -144,12 +136,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
                                     </div>
 
                                     <div class="col ">
-                                        <a href="/buses.html">
-                                            <button class="input-card searchBtn w-100">
-                                                <i class="bi bi-bus-front mx-3"></i> Search Bus
-                                            </button>
-                                        </a>
+                                        <button type="submit" class="input-card searchBtn w-100">
+                                            <i class="bi bi-bus-front mx-3"></i> Search Bus
+                                        </button>
                                     </div>
+                                
                             </div>
                         </div>
                         
@@ -158,105 +149,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
             </div>
         </div>
         
-
-
-        <div class="container ">
-
-            <div class="my-5">
-                <h4 class="fw-bolder text-green fs-3 steps">Follow 4 steps to get your ticket</h4>
-                <div class="row my-3 gy-2">
-                    <div class="col-md-3 ">
-                        <div class="p-4 bg-green rounded text-white" data-aos="flip-left" data-aos-duration="1000">
-                            <i class="bi bi-geo-alt-fill bg-white text-secondary p-2 rounded"></i>
-                            <div class="my-3">
-                                <p class="fw-bolder fs-5 mb-2">Search for bus</p>
-                                <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eligendi! Voluptatibus, reprehenderit laborum. Iusto repudiandae voluptatem doloremque eaque sint ex?</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="p-4 bg-green rounded text-white" data-aos="flip-left"data-aos-duration="2000">
-                            <i class="bi bi-geo-alt-fill bg-white text-secondary p-2 rounded"></i>
-                            <div class="my-3">
-                                <p class="fw-bolder fs-5 mb-2">Choose prefered bus</p>
-                                <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eligendi! Voluptatibus, reprehenderit laborum. Iusto repudiandae voluptatem doloremque eaque sint ex?</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="p-4 bg-green rounded text-white" data-aos="flip-left" data-aos-duration="3000">
-                            <i class="bi bi-geo-alt-fill bg-white text-secondary p-2 rounded"></i>
-                            <div class="my-3">
-                                <p class="fw-bolder fs-5 mb-2">Select desired seat</p>
-                                <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eligendi! Voluptatibus, reprehenderit laborum. Iusto repudiandae voluptatem doloremque eaque sint ex?</small>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-3">
-                        <div class="p-4 bg-green rounded text-white" data-aos="flip-left" data-aos-duration="5000">
-                            <i class="bi bi-geo-alt-fill bg-white text-secondary p-2 rounded"></i>
-                            <div class="my-3">
-                                <p class="fw-bolder fs-5 mb-2">Pay for ticket</p>
-                                <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eligendi! Voluptatibus, reprehenderit laborum. Iusto repudiandae voluptatem doloremque eaque sint ex?</small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="">
-                <div class="row my-5 p-md-5 p-1 gap-md-0 gap-3"> 
-                    <div class="col-md-6 "  data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                        <p class="fw-semibold lead text-green mb-md-4">Do you want to go on a journey without hustling for ticket? Relax, your bus-stop is just a click away.</p>
-                        <p class="text-muted">STC, an online bus-ticket booking platform, is the solution to all your commuting problems- be it long journeys or short trails</p>
-                        <p class="text-muted">Book a bus ticket and enjoy your ride without cramming for space, in a comfortable bus, at a cost that your pocket can happily bear.</p>
-                    </div>
-                    <div class="col-md-6" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                        <img src="./images//GH.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid ">
-                <div class="row my-5 p-md-5 p-0 gap-md-0 gap-3">
-                    <div class="col-md-6"  data-aos="zoom-in-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                        <img src="./images/ghana-mobile-app.png" alt="" class="img-fluid">
-                    </div>
-
-                    <div class="col-md-6" data-aos="zoom-in-left" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-                        <p class="fw-semibold lead text-green mb-md-4">Smart journey, stay hassle-free.</p>
-                        <p class="text-muted fw-bolder display-4">Download the STC Travel app!</p>
-                        <p class="text-muted">Ride in convenience with the exclusive features of mobile app, including:</p>
-
-                        <ul class="list-group">
-                            <li class="list-group-item border-0 text-green"><i class="bi bi-bus-front me-3"></i> <span>Cashless Payment</span></li>
-                            <li class="list-group-item border-0 text-green"><i class="bi bi-calendar-date me-3"></i> <span>Schedule a trip for future</span></li>
-                            <li class="list-group-item border-0 text-green"> <i class="bi bi-geo-alt-fill me-3"></i><span>Tracking status with boarding point navigation</span></li>
-                            <li class="list-group-item border-0 text-green"> <i class="bi bi-door-closed me-3"></i></i><span>Choose your favourite bus terminal location</span></li>
-                        </ul>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid mx-0 bg-green banner my-5 position-relative">
-            <div class="text-right position-absolute top-50 end-0 translate-middle-y text-white p-5 h-100 w-100 ">
-                <h2 class="fw-bolder display-1 text-end" data-aos="fade-up" data-aos-duration="1000">Enjoy your journey with <br>no stress</h2>
-            </div>
-        </div>
-
-
-
-        <div class="container-fluid sticky-bottom bottom-0 mx-0 bg-green">
+        <div class="container-fluid fixed-bottom mx-0 bg-green">
             <div class="container p-md-5 p-3 mt-5" data-aos="fade-up">
                 <div class="row gy-md-0 gy-3">
                     <div class="col-md-4 text-white">
